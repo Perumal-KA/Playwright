@@ -1,0 +1,8 @@
+Concepts in playwright ----
+
+await page.fill('#username', 'testuser');  // Enter text
+await page.click('#login');  // Click button
+await page.check('#rememberMe');  // Check a checkbox
+await page.hover('.menu-item');  // Hover over an element
+await page.dblclick('.file');  // Double-click
+await page.press('#search', 'Enter');  // Press a key
